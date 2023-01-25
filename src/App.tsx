@@ -1,27 +1,13 @@
 import React from 'react';
-import './App.scss';
 
-interface Props {
-  onClick: () => void;
-}
+import productsFromServer from './data/products.json';
+import { ProductList } from './components/ProductList';
 
-export const Provider: React.FC<Props> = React.memo(
-  ({ onClick, children }) => (
-    <button
-      type="button"
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  ),
+const App: React.FC = () => (
+  <div>
+    <h1>Mate Academy</h1>
+    <ProductList products={productsFromServer} />
+  </div>
 );
 
-export const App: React.FC = () => {
-  return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>
-        <TodoList />
-      </Provider>
-    </div>
-  );
-};
+export default App;

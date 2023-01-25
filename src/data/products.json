@@ -1,0 +1,13 @@
+[
+  { "id": 1, "name": "Potato", "color": "red" },
+  { "id": 2, "name": "Pear", "color": "white" },
+  { "id": 3, "name": "Mellon", "color": "black" },
+  { "id": 4, "name": "Ice cream", "color": "yellow" },
+  { "id": 5, "name": "Plan", "color": "blue" },
+  { "id": 6, "name": "Gashih", "color": "black" },
+  { "id": 7, "name": "Blueberry", "color": "red" },
+  { "id": 8, "name": "Garlic", "color": "red" },
+  { "id": 9, "name": "Stuff", "color": "white" },
+  { "id": 10, "name": "Shish", "color": "red" },
+  { "id": 11, "name": "Grange", "color": "purple" }
+]
